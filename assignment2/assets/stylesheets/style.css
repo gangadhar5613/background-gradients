@@ -1,0 +1,264 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+    v2.0 | 20110126
+    License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+blockquote, q {
+    quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/*=====================Custom Styles===================*/
+
+
+
+/*-------------General Styles--------------*/
+
+body{
+    font-family: sans-serif;
+    background-color: #20222F;
+    color: white;
+}
+
+
+
+
+
+/*---------main Section-----*/
+.row-1{
+    display: flex;
+    justify-content: space-between;
+    margin:7%;
+   
+}
+.col-1 h1{
+    font-size: 30px;
+    padding-bottom:10px;
+    font-weight: 600;
+}
+.col-1 span{
+    font-weight: 600;
+    font-size: 16px;
+    color: #727B9F;
+}
+.col-2{
+    display: flex;
+    align-items: center;
+}
+.col-2 h3{
+   color: #727B9F;
+   font-size: 18;
+   font-weight: 700;
+   margin-right: 15px;
+  
+}
+
+/*----- Button-------*/
+.button{
+ padding: 2px 0 3px 0;
+    width: 45px;
+    height: 20px;
+    background-image: linear-gradient(to right,#4095CE,#44C1A2);
+    border-radius: 27px;
+}
+.circle{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #20222F;
+    text-align: center;
+   margin: 1px 0 4px 2px;
+}
+
+/*===============Social Media Data=========================*/
+
+.sl-media{
+    margin: 7%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.col{
+    width: 280px;
+    height: 200px;
+    background-color: #252B43;
+    text-align: center;
+    padding-top: 20px;
+    border-radius: 3px;
+    
+}
+.column-1,.column-2{
+border-top: 5px solid #158EF5;
+}
+.fb-icon{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    align-items: center;
+    
+}
+.fb-icon,.fa{
+    color: #148EF4;
+    font-size: 25px;
+    padding-right: 10px;
+}
+.fa-instagram{
+     color: hsl(16,84%,71%);
+}
+
+.fb-icon span{
+    font-size:15px ;
+    color: #7680A4;
+}
+.column-1 h2,.column-2 h2,.column-3 h2,.column-4 h2{
+    font-size: 55px;
+    font-weight: 900;
+}
+.column-1 h4,.column-2 h4,.column-3 h4,.column-4 h4{
+    font-size: 10px ;
+    letter-spacing: 5px;
+    color: #848BAB;
+    padding-bottom: 20px;
+    text-transform: uppercase;
+}
+.bottom i{
+    padding: 5px;
+    color: #4FA195;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.column-4 i{
+    color:#bb3254;
+}
+.column-3{
+    border-top: 5px solid hsl(173,45%,42%);
+    border-color: hsl(16,84%,71%);
+    
+}
+.column-4{
+    border-top: 5px solid red;
+}
+
+/*===================Section 2-Overview Today part============================*/
+
+.overview{
+    margin-top: 10%;
+    
+    
+}
+
+
+.row-1{
+    display: flex;
+
+}
+.heading{
+    margin-left: 7%;
+    font-size: 30px;
+    font-weight: 700;
+    display: inline;
+}
+
+.r-col{
+    width: 280px;
+    height: 150px;
+    background-color: #252B43;
+    display: flex;
+  
+    
+}
+.c1{
+    margin-right: auto;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    margin-left: 20px;  
+}
+.c2{
+    
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+  margin-right: 20px;
+}
+
+.r-col h3{
+    font-size: 18px;
+    font-weight: 800;
+    color: #8991B8;
+}
+.r-col h2{
+    font-size: 40px;
+    font-weight: 900;
+}
+
+.c2 .fa-facebook-official{
+color: #1891F2;
+font-size: 25px;
+}
+.c2 .fa-caret-up{
+    font-size: 15px;
+    color: #479F93;
+}
+
+/*---------Row-2 ------------*/
+.row-2{
+    display: flex;
+    margin: 7%;
+    justify-content: space-between;
+}
+ 
+.fa-youtube-play{
+    color: red;
+}
+.fa-caret-down{
+    font-size: 15px;
+    color:#BB3854;
+}
